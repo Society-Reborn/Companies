@@ -1,0 +1,4 @@
+name: Companies
+version: '${project.version}'
+main: net.societyreborn.companies.Companies
+api-version: '1.20'
