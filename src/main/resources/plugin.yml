@@ -2,3 +2,14 @@ name: Companies
 version: '${project.version}'
 main: net.societyreborn.companies.Companies
 api-version: '1.20'
+commands:
+  meow:
+    description: Root command
+    usage: /<command> [reload]
+    permission: meow.admin
+    permission-message: You don't have <permission>!
+permissions:
+  meow.admin:
+    description: Admin level permissions
+    default: op
+
