@@ -16,7 +16,7 @@ public class CommandHandler implements CommandExecutor {
             if (args.length==0) {
                 sender.sendMessage(Component.text(ChatColor.translateAlternateColorCodes('&', "&cMissing arguments!")));
                 return true;
-            } else if (args[0].equals("reload") && sender.hasPermission("meow.admin")) {
+            } else if (args[0].equals("reload") && sender.hasPermission("companies.admin")) {
                 Companies.getSettings().reloadConfig();
                 sender.sendMessage(Component.text(ChatColor.translateAlternateColorCodes('&', "&6Config reloaded!")));
                 return true;

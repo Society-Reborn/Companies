@@ -1,0 +1,6 @@
+net\societyreborn\companies\listeners\SignEditModification.class
+net\societyreborn\companies\commands\CommandHandler.class
+net\societyreborn\companies\objects\Employee.class
+net\societyreborn\companies\Companies.class
+net\societyreborn\companies\objects\Company.class
+net\societyreborn\companies\utils\DataHandler.class

@@ -1,5 +1,5 @@
 name: Companies
-version: '${project.version}'
+version: 'v0.1'
 main: net.societyreborn.companies.Companies
 api-version: '1.20'
 commands:
